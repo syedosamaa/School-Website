@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header {
+    background-color: #003366;
+    padding: 15px 0;
+    color: white;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h2 {
+    cursor: pointer;
+}
+
+.navbar i {
+    color: #ffcc00;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    font-weight: 600;
+    gap: 20px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    color: #ffcc00;
+
+}
+
+.hero {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(https://plus.unsplash.com/premium_photo-1682955296312-2837a109d874?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGhpZ2glMjBzY2hvb2wlMjBzdHVkZW50fGVufDB8fDB8fHww) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+
+.hero-btns {
+    text-align: center;
+}
+
+.hero-btns .btn {
+    padding: 12px 15px;
+    background-color: #f7ca17;
+    color: black;
+    margin: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-btns .btn:hover {
+    background-color: #ffcc00;
+    color: black;
+}
+
+.apply-link {
+    text-decoration: none;
+    color: #f7ca17;
+}
+
+.apply-link:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+
+}
+
+.about-container h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #1e1c1c;
+}
+
+.about-container p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 50px;
+    gap: 35px;
+
+}
+
+.cards {
+    margin: 60px 0;
+    padding: 30px;
+    background-color: #efefef;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.cards:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cards h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.stats {
+    background-color: #003366;
+}
+
+.stats-container {
+    margin: 20px 40px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+
+}
+
+.stats-container h2 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.stats-container p {
+    font-size: 20px;
+    color: white;
+}
+
+.gallery {
+    margin: 80px;
+    text-align: center;
+}
+
+.gallery-container h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e1c1c;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+
+}
+
+.gallery-grid img {
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+footer {
+    background: #111;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-container {
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-container p {
+    margin-top: 5px;
+}
+
+.footer-container i {
+    color: #ffcc00;
+}
+
+.social a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+a i {
+    color: #ffcc00;
+    margin-right: 3px;
+}
+
+.footer-para p {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+.footer-para p a {
+    cursor: pointer;
+    color: white
+}
