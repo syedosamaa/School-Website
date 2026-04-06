@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nova Scholars School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="admission-page">
+
+    <header>
+        <div class="navbar navbar-container">
+            <div class="logo">
+
+                <h2><i class="fa-solid fa-graduation-cap"></i>
+                    Nova Scholars School</h2>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="menu" id="menu">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./admissions.html">Admissions</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="admission-hero"></section>
+
+    <!-- INFO -->
+    <section class="admission-info">
+        <h2 class="admission-title">Admission Information</h2>
+        <p>
+            We welcome students who are eager to learn and grow. Our admission process
+            is simple and designed to help parents and students easily enroll.
+        </p>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="admission-process">
+        <h2 class="admission-title">Admission Process</h2>
+
+        <div class="admission-steps">
+
+            <div class="admission-card">
+                <i class="fas fa-file-upload fa-2x process-icon"></i>
+                <h4>1. Submit Form</h4>
+                <p>Fill out the admission form with accurate details.</p>
+            </div>
+
+            <div class="admission-card">
+                <i class="fas fa-comments fa-2x process-icon"></i>
+                <h4>2. Interview</h4>
+                <p>Student and parents may be called for a short interview.</p>
+            </div>
+
+            <div class="admission-card">
+                <i class="fas fa-check-circle fa-2x process-icon"></i>
+                <h4>3. Confirmation</h4>
+                <p>Selected students will receive admission confirmation.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- REQUIREMENTS -->
+    <section class="admission-requirements">
+        <h2 class="admission-title">Requirements</h2>
+
+        <ul>
+            <li>Birth Certificate</li>
+            <li>Previous School Record</li>
+            <li>Passport Size Photographs</li>
+            <li>Parent/Guardian CNIC Copy</li>
+        </ul>
+    </section>
+
+    <!-- FORM -->
+    <section class="admission-form-section">
+        <h2 class="admission-title">Apply Now</h2>
+
+        <form class="admission-form">
+
+            <input type="text" placeholder="Student Name" required>
+            <input type="text" placeholder="Parent Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone Number" required>
+
+            <select required>
+                <option value="">Select Class</option>
+                <option>Primary</option>
+                <option>Secondary</option>
+            </select>
+
+            <textarea placeholder="Additional Message"></textarea>
+
+            <button type="submit">Submit Application</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div>
+                <h3>Contact Us</h3>
+                <p><i class="fa-solid fa-location-dot"></i> 123 Main Street, City</p>
+                <p><i class="fa-solid fa-phone"></i> +123 456 7890</p>
+                <p><i class="fa-solid fa-envelope"></i> info@novascholars.edu</p>
+            </div>
+
+            <div class="social">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
+
+            </div>
+        </div>
+
+
+        <div class="footer-para">
+            <p> © 2026 Nova Scholars School All Rights Reserved | Designed by <a
+                    href="https://github.com/syedosamaa">Syed Osama</a></p>
+        </div>
+
+    </footer>
+
+
+</body>
+
+<script>
+    const hamburger = document.getElementById("hamburger");
+    const menu = document.getElementById("menu");
+
+    hamburger.addEventListener("click", () => {
+        menu.classList.toggle("active");
+    });
+</script>
+
+</html>
